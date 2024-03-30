@@ -1,4 +1,4 @@
-installation Guide: 
+# installation Guide: 
 1. Download the zip and extract it
 2. Open your terminal or command prompt inside the project folder
 3. Run " composer install " to install PHP dependencies
@@ -15,7 +15,8 @@ installation Guide:
 8. run " php artisan migrate "
 9. run " php artisan serve " to run the project
 
-API Tessting guide:
+
+# API Tessting guide:
 
 To test the API endpoints using Postman, you can use the following URLs and parameters:
 
@@ -43,4 +44,3 @@ To test the API endpoints using Postman, you can use the following URLs and para
 
 Make sure your Laravel application is running locally on `http://localhost:8000` or adjust the URL accordingly if you are using a different port or domain.
 
-When making requests in Postman, set the appropriate HTTP method (POST for creating resources, PATCH for updating resources), specify the URL, provide necessary parameters, and add headers as required. For the `X-Mock-Status` header, set it according to the response you want to simulate in the mock API endpoint.
