@@ -16,6 +16,24 @@
 9. run " php artisan serve " to run the project
 
 
+# Rlevant File Location:
+
+Main api:
+app\Http\Controllers\transaction\CallbackController.php
+app\Http\Controllers\transaction\MockController.php
+app\Http\Controllers\transaction\TransactionController.php
+app\Http\Middleware\ValidateTransactionRequest.php
+app\Models\Transaction.php
+database\migrations\2024_03_30_114647_create_transactions_table.php
+routes\api.php
+
+Test cases:
+tests\Feature\CallbackControllerTest.php
+tests\Feature\MockControllerTest.php
+tests\Feature\TransactionControllerTest.php
+.env.testing
+
+
 # API Tessting guide:
 
 To test the API endpoints using Postman, you can use the following URLs and parameters:
